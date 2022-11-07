@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', 'Regular', Helvetica, sans-serif;
+}
+body{
+  background: url('~@/assets/img/星空背景.png') center center /cover no-repeat, #232323;
+}
+button{
+  background: none;
+  border: none;
+  outline: none;
+}
+#nav{
+  position: fixed;
+  width: 100%;
+}
+#container{
+  height: 100vh;
+  #applyButton{
+    position: fixed;
+    right: 25px;
+    bottom: 30px;
+    width: 170px;
+    height: 120px;
+    background: url('~@/assets/img/立即報名.svg') center center /contain no-repeat;
+    cursor: pointer;
+  }
+  >div{
+    height: 100%;
+  }
+}

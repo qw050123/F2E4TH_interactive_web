@@ -1,0 +1,52 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  &-top-area{
+    padding-top: $containerBasePaddingTop;
+    display: flex;
+    justify-content: space-between;
+    &-image{
+      &.title{
+        margin-top: 50px;
+      }
+    }
+  }
+  &-bottom-area{
+    position: relative;
+    flex: 1;
+    >.background-area{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: url('~@/assets/img/線條背景.svg') center center /contain no-repeat;
+    }
+    >.button-area{
+      position: absolute;
+      width: 100%;
+      z-index: 5;
+      margin-top: 35px;
+      text-align: center;
+      >.button-area-item{
+        width: 500px;
+        height: 85px;
+        &:first-of-type{
+          background: url('~@/assets/img/UI.svg') center center /contain no-repeat;
+          margin-right: 50px;
+        }
+        &:last-of-type{
+          background: url('~@/assets/img/F2E.svg') center center /contain no-repeat;
+        }
+      }
+    }
+    >.sun-area{
+      z-index: 1;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      background: url('~@/assets/img/sun.svg') center center /contain no-repeat;
+      width: 465px;
+      height: 460px;
+    }
+  }
+}

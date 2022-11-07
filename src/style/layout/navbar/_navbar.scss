@@ -1,0 +1,41 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 35px;
+  z-index: 1000;
+  .logo{
+    display: inline-block;
+    width: 230px;
+    height: 30px;
+    background: url('~@/assets/img/logo.png') center center /contain no-repeat;
+    cursor: pointer;
+  }
+  &-item-group{
+    &-item{
+      cursor: pointer;
+      margin-right: 35px;
+      display: inline-block;
+      font-size: 22px;
+      line-height: 1.5;
+      
+      &:last-of-type{
+        margin-right: none;
+      }
+      &.item-link{
+        color: #FFFFFF;
+      }
+      &.item-button{
+        padding: 5px 40px;
+        &:first-of-type{
+          background: url('~@/assets/img/雜訊按鈕的背景.svg') center center /cover no-repeat;
+        }
+        &:last-of-type{
+          background: url('~@/assets/img/雜訊按鈕的背景_小.svg') center center /cover no-repeat;
+        }
+        color: #232323;
+        font-weight: normal;
+      }
+    }
+  }
+}
