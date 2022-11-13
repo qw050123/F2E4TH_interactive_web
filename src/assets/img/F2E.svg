@@ -211,6 +211,6 @@
       <rect id="Rectangle_732" data-name="Rectangle 732" width="8.191" height="2.187" transform="translate(73.721 74.868)" fill="#fcfcfc"/>
       <rect id="Rectangle_733" data-name="Rectangle 733" width="31.72" height="2.187" transform="translate(114.678 74.868)" fill="#fcfcfc"/>
     </g>
-    <text id="Frontend" transform="translate(1105.575 683)" fill="#232323" font-size="50" font-family="Silkscreen-Regular, Silkscreen"><tspan x="0" y="0">Frontend</tspan></text>
+    <path id="Path_7252" data-name="Path 7252" d="M6.25,0V-31.25H25V-25H12.5v6.25H25v6.25H12.5V0ZM37.5,0V-31.25H56.25V-25H62.5v6.25H56.25v12.5H62.5V0H56.25V-6.25H50V-12.5H43.75V0Zm6.25-18.75H56V-25H43.75ZM81.25,0V-6.25H75V-25h6.25v-6.25h12.5V-25H100V-6.25H93.75V0Zm0-6.5h12.5V-24.75H81.25ZM112.5,0V-31.25h6.25V-25H125v6.25h6.25v6.25h6.25V-31.25h6.25V0H137.5V-6.25h-6.25V-12.5H125v-6.25h-6.25V0Zm50,0V-25h-6.25v-6.25H175V-25h-6.25V0Zm25,0V-31.25h18.75V-25h-12.5v6.25h12.5v6.25h-12.5v6.25h12.5V0Zm31.25,0V-31.25H225V-25h6.25v6.25h6.25v6.25h6.25V-31.25H250V0h-6.25V-6.25H237.5V-12.5h-6.25v-6.25H225V0ZM262.5,0V-31.25h18.75V-25h6.25V-6.25h-6.25V0Zm6.25-6.25H281V-25H268.75Z" transform="translate(1105.575 683)" fill="#232323"/>
   </g>
 </svg>

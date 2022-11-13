@@ -1,0 +1,54 @@
+.question{
+  position: relative;
+  height: 100%;
+  &-sun{
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 1025px;
+    height: 1025px;
+    transform: translate(-50%, -50%);
+    background: url('~@/assets/img/sun.png') center center /contain no-repeat;
+  }
+  &-area{
+    z-index: 5;
+    width: 100%;
+    font-weight: bold;
+    position: absolute;
+    font-size: 100px;
+    line-height: 1.5;
+    left: 50%;
+    top: 50%;
+    color: #FFF;
+    transform: translate(-50%, -50%);
+    letter-spacing: 30px;
+    opacity: 0;
+    text-align: center;
+    &.show{
+      opacity: 1;
+    }
+  }
+  &-airplane{
+    z-index: 10;
+    width: calc(100% - 400px);
+    height: 500px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    &-bullet{
+      height: 360px;
+      // background-color: rgba(255,255,0,0.3);
+    }
+    &-item{
+      z-index: 10;
+      position: relative;
+      left: 50%;
+      width: 85px;
+      height: 140px;
+      background: url('~@/assets/img/太空艦.svg') center center /contain no-repeat;
+      pointer-events: none;
+    }
+  }
+}

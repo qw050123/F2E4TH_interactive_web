@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="503.425" height="85.328" viewBox="0 0 503.425 85.328">
-  <g id="UI" transform="translate(-442.288 -625.672)">
+  <g id="UI" transform="translate(-442.287 -625.672)">
     <g id="Group_561" data-name="Group 561" transform="translate(442.287 625.673)">
       <rect id="Rectangle_528" data-name="Rectangle 528" width="8.191" height="4.779" transform="translate(57.34 56.355)" fill="#e31010"/>
       <rect id="Rectangle_529" data-name="Rectangle 529" width="8.191" height="12.489" transform="translate(57.34 62.379)" fill="#e31010"/>
@@ -211,6 +211,6 @@
       <rect id="Rectangle_732" data-name="Rectangle 732" width="8.191" height="2.187" transform="translate(73.721 74.868)" fill="#fcfcfc"/>
       <rect id="Rectangle_733" data-name="Rectangle 733" width="31.72" height="2.187" transform="translate(114.678 74.868)" fill="#fcfcfc"/>
     </g>
-    <text id="UI_Design" data-name="UI Design" transform="translate(550.287 687.672)" fill="#232323" font-size="50" font-family="Silkscreen-Regular, Silkscreen"><tspan x="0" y="0">UI Design</tspan></text>
+    <path id="Path_7251" data-name="Path 7251" d="M12.5,0V-6.25H6.25v-25H12.5v25H25V0ZM25-6.25v-25h6.25v25ZM43.75,0V-31.25H50V0ZM87.5,0V-31.25h18.75V-25h6.25V-6.25h-6.25V0Zm6.25-6.25H106V-25H93.75ZM125,0V-31.25h18.75V-25h-12.5v6.25h12.5v6.25h-12.5v6.25h12.5V0Zm37.5-25v-6.25h18.75V-25ZM175-6.25V-12.5H162.5v-6.25h-6.25V-25h6.25v6.25H175v6.25h6.25v6.25ZM156.25,0V-6.25H175V0Zm37.5,0V-31.25H200V0Zm25-25v-6.25H237.5V-25ZM212.5-6.25V-25h6.25V-6.25Zm18.75,0V-12.5H225v-6.25h12.5v12.5ZM218.75,0V-6.25h12.5V0ZM250,0V-31.25h6.25V-25h6.25v6.25h6.25v6.25H275V-31.25h6.25V0H275V-6.25h-6.25V-12.5H262.5v-6.25h-6.25V0Z" transform="translate(550.287 687.672)" fill="#232323"/>
   </g>
 </svg>
